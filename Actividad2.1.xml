@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE maraton>
+<maraton>
+    <participantes>
+        <participante nombre="nombre1" num_dorsal="333" tiempo_invert="03:30:30"/>
+        <participante nombre="nombre2" num_dorsal="331" tiempo_invert="03:30:31"/>
+        <participante nombre="nombre3" num_dorsal="330" tiempo_invert="03:30:32"/>
+    </participantes>
+</maraton>

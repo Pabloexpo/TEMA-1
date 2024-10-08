@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<empresa>
+    <departamentos>
+        <departamento id="ADM" nombre="empresa">
+            <puestos>
+                <puesto id="USR" nombre="usuario">
+                    <tipo id="PC" nombre="pc">
+                        <elemento nombre="portatil acer" num_serie="8838383838383" modelo="acer" fec_compra="13/06/2005"></elemento>
+                    </tipo>
+                    <tipo id="PER" nombre="periférico">
+                        <elemento nombre="impresora" num_serie="8838383838383" modelo="brother" fec_compra="13/06/2005"></elemento>
+                    </tipo>
+                    <tipo id="RED" nombre="red">
+                        <elemento nombre="router" num_serie="8838383838383" modelo="movistar" fec_compra="13/06/2005"></elemento>
+                    </tipo>
+                </puesto>
+                <puesto id="INS" nombre="instalación">
+                    <tipo id="PC" nombre="pc"></tipo>
+                    <tipo id="PER" nombre="periférico">
+                        <elemento nombre="PDA" num_serie="8838383838383" modelo="movistar" fec_compra="13/06/2005"></elemento>
+                    </tipo>
+                    <tipo id="RED" nombre="red"></tipo>
+                </puesto>
+            </puestos>
+        </departamento>
+        <departamento id="VEN" nombre="ventas">
+            <puestos>
+                <puesto id="USR" nombre="usuario">
+                    <tipo id="PC" nombre="pc"></tipo>
+                    <tipo id="PER" nombre="periférico"></tipo>
+                    <tipo id="RED" nombre="red"></tipo>
+                </puesto>
+                <puesto id="INS" nombre="instalación">
+                    <tipo id="PC" nombre="pc"></tipo>
+                    <tipo id="PER" nombre="periférico"></tipo>
+                    <tipo id="RED" nombre="red"></tipo>
+                </puesto>
+            </puestos>
+        </departamento>
+        <departamento id="MK" nombre="marketing">
+            <puestos>
+                <puesto id="USR" nombre="usuario">
+                    <tipo id="PC" nombre="pc"></tipo>
+                    <tipo id="PER" nombre="periférico"></tipo>
+                    <tipo id="RED" nombre="red"></tipo>
+                </puesto>
+                <puesto id="INS" nombre="instalación">
+                    <tipo id="PC" nombre="pc"></tipo>
+                    <tipo id="PER" nombre="periférico"></tipo>
+                    <tipo id="RED" nombre="red"></tipo>
+                </puesto>
+            </puestos>
+        </departamento>
+    </departamentos>
+</empresa>

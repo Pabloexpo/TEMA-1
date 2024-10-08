@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parking nombre="Parking Santa Lucía" localidad="Cartagena" fecha_archivo="13/12/20">
+    <tipo_abono>
+        <abono id="COM" nombre="Completo"/>
+        <abono id="LAB" nombre="Laboral"/>
+        <abono id="MJM" nombre="Media jornada de mañana"/>
+        <abono id="MJT" nombre="Media jornada de tarde"/>
+    </tipo_abono>
+    <abonados>
+        <abonado num_abono="1" nombre="nombre completo" telefono="telefono" abono ="COM">
+            <tarjeta_acceso ean="12345678910" matricula="4564LMB" activa="SI"/>
+        </abonado>
+        <abonado num_abono="2" nombre="nombre completo" telefono="telefono" abono ="LAB">
+            <tarjeta_acceso ean="1233567892" activa="SI"/>
+        </abonado>
+        <abonado num_abono="3" nombre="nombre completo" telefono="telefono" abono ="MJM">
+            <tarjeta_acceso ean="4829756789"  activa="NO"/>
+            <tarjeta_acceso ean="1234567891" matricula="3364LMB" activa="SI"/>
+        </abonado>
+        <abonado num_abono="4" nombre="nombre completo" telefono="telefono" abono ="MJT">
+            <tarjeta_acceso ean="12345671110" activa="SI"/>
+        </abonado>
+
+    </abonados>
+    <accesos>
+        <acceso numero="1" matricula="7777LBN" fecha_entrada="13/12/20 09:09:20" modo_autorizacion="ticket" fecha_salida="13/12/20 12:09:20" importe="5.00"/>
+        <acceso numero="2" matricula="4564LMB" fecha_entrada="13/12/20 10:09:20" modo_autorizacion="abono" num_abono="1"/>
+
+    </accesos>
+
+
+</parking>

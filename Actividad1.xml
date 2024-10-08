@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE Empresa_electronica>
+<empresa>
+    <almacenes>
+        <almacen id="AL01" nombre="primer almacén"></almacen>
+        <almacen id="AL02" nombre="segundo almacén"></almacen>
+    </almacenes>
+    <categorias>
+        <categoria nombre="componentes">
+            <producto id="RS100" nombre="Resistencia 100hm" precio_unidad="0.01" stock="15000" pedido_minimo="5000" almacen="AL01"></producto>
+            <producto id="RJ-45" nombre="conector RJ-45" precio_unidad="0.15" stock="1200" pedido_minimo="2000"></producto>
+            <producto id="“LEDRGB10MA" nombre="Led RGB con consumo de 10mA" precio_unidad="0.40" stock="0" pedido_minimo="100"></producto>
+        </categoria>
+        <categoria nombre="herramientas">
+            <producto id="" nombre="" precio_unidad="" stock="" pedido_minimo=""></producto>
+            <producto id="" nombre="" precio_unidad="" stock="" pedido_minimo=""></producto>
+            <producto id="" nombre="" precio_unidad="" stock="" pedido_minimo="">
+                <precio_especial desde_cantidad="10" hasta_cantidad="99" precio="0.40"/>
+                <precio_especial desde_cantidad="100"  precio="0.30"/>
+            </producto>
+        </categoria>
+        <categoria nombre="manuales">
+            <producto id="" nombre="" precio_unidad="" stock="" pedido_minimo=""></producto>
+            <producto id="" nombre="" precio_unidad="" stock="" pedido_minimo=""></producto>
+            <producto id="" nombre="" precio_unidad="" stock="" pedido_minimo=""></producto>
+        </categoria>
+
+    </categorias>
+    
+</empresa>

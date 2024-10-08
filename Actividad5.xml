@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<grupo_teatro>
+    <integrantes>
+        <integrante id="PEM" apellidos="Expósito Martínez" nombre="Pablo" nombre_artistico="peque" telefono="212512321" fec_nac="13/06/1996"/>
+        <integrante id="AAA" apellidos="Expósito Martínez" nombre="Pablo" nombre_artistico="peque" telefono="212512321" fec_nac="13/06/1996"/>
+        <integrante id="BBB" apellidos="Expósito Martínez" nombre="Pablo" nombre_artistico="peque" telefono="212512321" fec_nac="13/06/1996"/>
+        <integrante id="CCC" apellidos="Expósito Martínez" nombre="Pablo" nombre_artistico="peque" telefono="212512321" fec_nac="13/06/1996"/>
+    </integrantes>
+    <obras_teatrales>
+        <obra titulo="Primera" autor="autor" genero="comedia" año_inicio="2012">
+            <reparto>
+                <actor id="PEM" rol="protagonista"/>
+                <actor id="AAA" rol="director" />
+                <actor id="CCC" rol="actor de reparto" />
+            </reparto>
+        </obra>
+        <obra titulo="Segunda" autor="autor1" genero="drama" año_inicio="2020">
+            <reparto>
+                <actor id="BBB" rol="protagonista"/>
+                <actor id="AAA" rol="director" />
+                <actor id="CCC" rol="actor de reparto" />
+                <actor id="PEM" rol="apuntador"/>
+            </reparto>
+        </obra>
+        <representaciones>
+            <representacion id="1" fecha="20/20/20 21:00:00" lugar="Cartagena" obra="Primera">
+                Anotaciones interesantes sobre la obra
+            </representacion>
+            <representacion id="2" fecha="22/20/20 21:00:00" lugar="Cartagena" obra="Primera">
+                Anotaciones interesantes sobre la obra
+            </representacion>
+            <representacion id="3" fecha="20/20/20 21:00:00" lugar="Murcia" obra="Segunda">
+                Anotaciones interesantes sobre la obra
+            </representacion>
+        </representaciones>
+    </obras_teatrales>
+</grupo_teatro>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comunicaciones fecha="13/13/13" hora="12:00:00">
+    <medios_comunicacion>
+        <medio id="EM01" nombre="Email"/>
+        <medio id="TEL02" nombre="Teléfono"/>
+        <medio id="SMS03" nombre="SMS"/>
+        <medio id="AP04" nombre="App"/>
+    </medios_comunicacion>
+    <tipos_comunicacion>
+        <tipo id="RE01" nombre="Recordatorio de cita">
+            <plantilla>
+                Le recordamos su próxima cita en clínica #SUCURSAL, en el servicio de #SERVICIO, el próximo día #FECHA. En caso de no poder asistir, le regamos nos informe en el teléfono 968 555 555 o a través de nuestra app
+            </plantilla>
+            <instrumento medio="EM01"/>
+            <instrumento medio="SMS03"/>
+        </tipo>
+        <tipo id="CA02" nombre="Cancelación de cita">
+            <instrumento medio="EM01"/>
+            <instrumento medio="SMS03"/>
+            <instrumento medio="TEL02"/>
+        </tipo>
+        <tipo id="DOC03" nombre="Requerimiento de documentación"></tipo>
+        <tipo id="EN04" nombre="Encuestas de satisfacción"></tipo>
+    </tipos_comunicacion>
+    <notificaciones>
+        <notificacion id="1" medio="EM01" fecha_clinica="13/13/13 12:05:21" fecha_envio="13/13/13 18:05:21" tipo="RE01" estado="Enviada">
+            <direccion telefono ="729018920"/>
+            <direccion email ="email"/>
+        </notificacion>
+        <notificacion id="2" medio="EM01" fecha_clinica="13/13/13 12:05:21" tipo="AP04" estado="Eliminada" />
+        <notificacion id="3" medio="EM01" fecha_clinica="13/13/13 12:05:21" tipo="AP04" estado="Modificada">
+            <modificacion_consulta id="2"/>
+            <direccion email="email"/>
+        </notificacion>
+    </notificaciones>
+    
+</comunicaciones>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<alguiler_furgonetas>
+    <categorias>
+        <categoria id="MIN" nombre="mini"/>
+        <categoria id="COM" nombre="compact"/>
+        <categoria id="GRA" nombre="grand"/>
+        <categoria id="XL" nombre="xlarge"/>
+    </categorias>
+    <lista_furgonetas>
+        <furgoneta id="1" plazas="2" marca="marcaX" modelo="modeloX" categoria="MIN" precio="500"/>
+        <furgoneta id="2" plazas="3" marca="marcaY" modelo="modeloY" categoria="COM" precio="600"/>
+        <furgoneta id="3" plazas="4" marca="marcaZ" modelo="modeloZ" categoria="GRA" precio="700"/>
+        <furgoneta id="4" plazas="8" marca="marcaW" modelo="modeloW" categoria="XL" precio="800"/>
+    </lista_furgonetas>
+    <clientes>
+        <cliente id="74464" nombre="Pablo" apellidos="Expósito" dirección="tal" telefono="767288929" dni="49335028M"/>
+        <cliente id="65148" nombre="Pablo" apellidos="Martinez" dirección="tal" telefono="215556566" dni="49335028M"/>
+        <cliente id="12152" nombre="Pablo" apellidos="Crespo" dirección="tal" telefono="212545696" dni="49335028M"/>
+        <cliente id="21254" nombre="Pablo" apellidos="Rodriguez" dirección="tal" telefono="3223214120" dni="49335028M"/>
+    </clientes>
+    <precio_servicios>
+        <servicio id="2" nombre="silleta" precio="20"/>
+        <servicio id="3" nombre="deposito" precio="50"/>
+        <servicio id="4" nombre="portabicis" precio="30"/>
+        <servicio id="5" nombre="silleta+deposito" precio="70"/>
+        <servicio id="6" nombre="deposito+bici" precio="80"/>
+        <servicio id="7" nombre="silleta+bici" precio="40"/>
+        <servicio id="2" nombre="completo" precio="100"/>
+    </precio_servicios>
+    <solicitudes>
+        <solicitud id="1" cliente_id="74464" vehiculo_id="2" fecha_pedido="13/13/13 21:00:00" fecha_dev="15:15:15 21:00:00" servicio="7">
+            texto descriptivo del coche (opcional)
+        </solicitud>
+        <solicitud id="1" cliente_id="74464" vehiculo_id="4" fecha_pedido="13/13/13 21:00:00" fecha_dev="15:15:15 21:00:00" servicio="5">
+            texto descriptivo del coche (opcional)
+        </solicitud>
+        <solicitud id="1" cliente_id="74464" vehiculo_id="6" fecha_pedido="13/13/13 21:00:00" fecha_dev="15:15:15 21:00:00" servicio="1">
+            texto descriptivo del coche (opcional)
+        </solicitud>
+    </solicitudes>
+    
+</alguiler_furgonetas>

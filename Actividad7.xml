@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<renting_coches  nombre="hyundai" cif="877877767878" fecha="13/13/13">
+    <categoria tipo="pequeño">
+
+    </categoria>
+    <categoria tipo="mediano">
+        <vehiculo id="1" marca="Kona" combustible="diesel" transmision="automática" puertas="5" categoria="MED">
+            <color>
+                <color nombre="blanco" precio="básico"/>
+                <color nombre="gris" precio="20"/>
+                <color nombre="negro" precio="20"/>
+                <color nombre="gris metalizado" precio="50"/>
+            </color>
+            <precios>
+                <precio km="10000" duracion="36 meses" precio="318"/>
+                <precio km="10000" duracion="60 meses" precio="320"/>
+                <precio km="15000" duracion="48 meses" precio="323"/>
+                <precio km="15000" duracion="36 meses" precio="328"/>
+                <precio km="15000" duracion="60 meses" precio="322"/>
+            </precios>
+        </vehiculo>
+    </categoria>
+    <categoria tipo="grande">
+        <vehiculo id="2" marca="Tucson" combustible="hibrido" transmision="automática" puertas="5" categoria="GRA" km="10000" fec_primera_mat="20/20/09">
+            <color>
+                <color nombre="blanco" precio="básico"/>
+                <color nombre="gris" precio="20"/>
+                <color nombre="negro" precio="20"/>
+                <color nombre="gris metalizado" precio="50"/>
+            </color>
+            <precios>
+                <precio km="10000" duracion="36 meses" precio="418"/>
+                <precio km="10000" duracion="60 meses" precio="420"/>
+                <precio km="15000" duracion="48 meses" precio="423"/>
+                <precio km="15000" duracion="36 meses" precio="428"/>
+                <precio km="15000" duracion="60 meses" precio="422"/>
+            </precios>
+        </vehiculo>
+    </categoria>  
+</renting_coches>

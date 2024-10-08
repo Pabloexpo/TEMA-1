@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<restaurante>
+    <platos>
+        <plato id="ENS" nombre="ensalada"/>
+        <plato id="JYQ" nombre="jamón y queso"/>
+        <plato id="CAN" nombre="canapés"/>
+        <plato id="PYC" nombre="patatas y carne"/>
+        <plato id="PYP" nombre="patatas y pescado"/>
+        <plato id="ENT" nombre="entrecot"/>
+        <plato id="HAM" nombre="hamburguesa"/>
+        <plato id="CAF" nombre="café"/>
+    </platos>
+    <menu1 horario="mediodia" precio="10" min_comensales="10">
+        <parte id="primeros">
+            <opcion ref="ENS"/>
+            <opcion ref="JYQ"/>
+            <opcion ref="CAN"/>
+        </parte>
+        <parte id="segundos">
+            <opcion ref="PYC" /> 
+            <opcion ref="PYP" /> 
+        </parte>
+        <parte id="postres">
+            <opcion ref="CAF" /> 
+            <opcion ref="CAF" /> 
+        </parte>
+    </menu1>
+    <menu2 horario="cena" precio="15" min_comensales="5">
+        <parte id="primeros">
+            <opcion ref="ENS"/>
+            <opcion ref="JYQ"/>
+            <opcion ref="CAN"/>
+        </parte>
+        <parte id="segundos">
+            <opcion ref="ENT" /> 
+            <opcion ref="HAM" /> 
+        </parte>
+        <parte id="postres">
+            <opcion ref="CAF" /> 
+            <opcion ref="CAF" /> 
+        </parte>
+    </menu2>
+</restaurante>

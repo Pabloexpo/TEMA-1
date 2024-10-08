@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<impresiones_3D>
+    <utilidades>
+        <colores>
+            <color id="1" valorRGB="00f" nombre="rojo"/>
+            <color id="2" valorRGB="12f" nombre="rojo2"/>
+            <color id="1" valorRGB="23f" nombre="rojo3"/>
+        </colores>
+        <materiales>
+            <material id="1" nombre="plástico">
+                <calidades>
+                    <combinacion id="MAD" nombre="madera" precioxgramo="0.004 €/gr"/>
+                </calidades>
+                <colores_disponibles>
+                    <color_disponible id="1"/>
+                </colores_disponibles>
+            </material>
+        </materiales>
+    </utilidades>
+    <encargos>
+        <encargo id="1" fecha_peticion="20/20/20" estado="rechazado" msj_error="Error">
+            Observaciones
+            <componentes>
+                <componente id="1" calidad_pedida="MAD" peso="2 kg" color="00f">
+                    Descripción
+                </componente>
+            </componentes>
+        </encargo>
+    </encargos>
+</impresiones_3D>

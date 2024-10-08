@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<partidas_club>
+    <tipos_juego>
+        <juego id="DOM" nombre="dominó" jug_min="2" jug_max="4">
+            la que sea 
+        </juego>
+        <juego id="BRI" nombre="brisca" jug_min="2" jug_max="4">
+            la que sea 
+        </juego>
+        <juego id="JUL" nombre="julepe" jug_min="2" jug_max="4">
+            la que sea 
+        </juego>
+    </tipos_juego>
+
+    <socios_jugadores>
+        <socio id="PEM" nombre="Pablo Expósito Martínez" fec_nac="1996/06/13"/>
+        <socio id="AEN" nombre="Antonio Expósito Navarro" fec_nac="1996/06/13" apodo="pater"/>
+        <socio id="AAA" nombre="Pablo Expósito Martínez" fec_nac="1996/06/13"/>
+        <socio id="BBB" nombre="Antonio Expósito Navarro" fec_nac="1996/06/13" apodo="pater"/>
+    </socios_jugadores>
+
+    <partidas_libres>
+        <partida id="1" juego="DOM" ganador="1" fecha="20/20/20">
+            <participantes>
+                <jugador id="PEM" equipo="1"/>
+                <jugador id="AEN" equipo="1"/>
+                <jugador id="AAA" equipo="2"/>
+                <jugador id="BBB" equipo="2"/>
+
+            </participantes>
+        </partida>
+
+        <partida id="2" juego="BRI" ganador="1" fecha="20/20/20">
+            <participantes>
+                <jugador id="PEM" equipo="1"/>
+                <jugador id="AEN" equipo="1"/>
+                <jugador id="AAA" equipo="2"/>
+                <jugador id="BBB" equipo="2"/>
+
+            </participantes>
+        </partida>
+    </partidas_libres>
+
+    <campeonatos>
+        <campeonato id="1" nombre="Campeonato1" fecha="12/12/12" ganador="PEM">
+            <partidas>
+                <partida id="3" juego="DOM" ganador="1" fecha="20/20/20">
+                    <participantes>
+                        <jugador id="PEM" equipo="1"/>
+                        <jugador id="AEN" equipo="1"/>
+                        <jugador id="AAA" equipo="2"/>
+                        <jugador id="BBB" equipo="2"/>
+        
+                    </participantes>
+                </partida>
+        
+                <partida id="2" juego="BRI" ganador="1" fecha="20/20/20">S
+                    <participantes>
+                        <jugador id="PEM" equipo="1"/>
+                        <jugador id="AEN" equipo="1"/>
+                        <jugador id="AAA" equipo="2"/>
+                        <jugador id="BBB" equipo="2"/>
+        
+                    </participantes>
+                </partida>
+            </partidas>
+
+        </campeonato>
+    </campeonatos>
+
+
+
+</partidas_club>

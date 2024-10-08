@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productos_financieros>
+    <tipos_prestamos>
+        <tipo nombre="Personal">
+            <subtipos>
+                <subtipo nombre="Fijo">
+                    <prestamo id="PP001" nombre="Prestamo personal plazo fijo" comision_apertura="0.07" plazo_minimo="4" plazo_maximo="30" tiempo="años" capital_minimo="2000€" capital_maximo="500000€">
+                        <tramo numero="1" interes="0.02" plazo="4 años" referencia_base="ABSOLUTO"/>
+                        <tramo numero="2" interes="0.5" plazo="A partir de 4 años" referencia_base="EURIBOR"/>
+                    </prestamo>
+                </subtipo>
+                <subtipo nombre="Variable">
+                    
+                </subtipo>
+            </subtipos>
+        </tipo>
+        <tipo nombre="Hipotecario">
+            <subtipos>
+                <subtipo nombre="Fijo">
+
+                </subtipo>
+                <subtipo nombre="Variable">
+                    
+                </subtipo>
+                <subtipo nombre="Mixto">
+                    
+                </subtipo>
+            </subtipos>
+        </tipo>
+        <tipo nombre="Hipotecario">
+            
+        </tipo>
+    </tipos_prestamos>
+    <entidades>
+        <entidad id="001" nombre="Santander" tipo="BANCO">
+            <lista_productos>
+                <producto ref="PP001"/>
+            </lista_productos>
+        </entidad>
+        <entidad id="002" nombre="Flexi" tipo="CRÉDITO">
+            <lista_productos>
+                <producto ref="PP001"/>
+            </lista_productos>
+        </entidad>
+        <entidad id="003" nombre="OTROS" tipo="OTROS">
+            <lista_productos>
+                <producto ref="PP001"/>
+            </lista_productos>
+        </entidad>
+    </entidades>
+</productos_financieros>
